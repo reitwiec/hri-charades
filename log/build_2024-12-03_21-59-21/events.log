@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.001646] (charades_pkg) JobQueued: {'identifier': 'charades_pkg', 'dependencies': OrderedDict()}
+[0.002140] (charades_pkg) JobStarted: {'identifier': 'charades_pkg'}
+[0.098521] (-) TimerEvent: {}
+[0.199404] (-) TimerEvent: {}
+[0.300114] (-) TimerEvent: {}
+[0.400732] (-) TimerEvent: {}
+[0.501367] (-) TimerEvent: {}
+[0.602201] (-) TimerEvent: {}
+[0.702920] (-) TimerEvent: {}
+[0.803583] (-) TimerEvent: {}
+[0.904273] (-) TimerEvent: {}
+[1.005193] (-) TimerEvent: {}
+[1.105963] (-) TimerEvent: {}
+[1.206713] (-) TimerEvent: {}
+[1.307526] (-) TimerEvent: {}
+[1.408546] (-) TimerEvent: {}
+[1.509637] (-) TimerEvent: {}
+[1.610353] (-) TimerEvent: {}
+[1.711063] (-) TimerEvent: {}
+[1.811702] (-) TimerEvent: {}
+[1.912358] (-) TimerEvent: {}
+[2.012969] (-) TimerEvent: {}
+[2.113600] (-) TimerEvent: {}
+[2.214195] (-) TimerEvent: {}
+[2.314944] (-) TimerEvent: {}
+[2.415592] (-) TimerEvent: {}
+[2.516424] (-) TimerEvent: {}
+[2.617110] (-) TimerEvent: {}
+[2.717985] (-) TimerEvent: {}
+[2.818610] (-) TimerEvent: {}
+[2.919358] (-) TimerEvent: {}
+[3.020323] (-) TimerEvent: {}
+[3.122089] (-) TimerEvent: {}
+[3.179107] (charades_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/charades/build/charades_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ubuntu/charades/build/charades_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKSPACE_SETUP': '/opt/ros/humble/setup.bash', 'USER': 'ubuntu', 'SSH_CLIENT': '128.84.91.55 55772 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': '/etc/turtlebot4/cyclonedds_rpi.xml', 'OLDPWD': '/home/ubuntu/charades/src/charades_pkg/charades_pkg', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/charades/install', 'ROBOT_SETUP': '/etc/turtlebot4/setup.bash', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'ROS_SUPER_CLIENT': 'True', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4/fastdds_discovery_super_client.xml', 'TURTLEBOT4_DIAGNOSTICS': '1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/charades/install/charades_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'ROS_DISCOVERY_SERVER': '10.52.16.29:11811;', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'ROBOT_NAMESPACE': '', 'PWD': '/home/ubuntu/charades/build/charades_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '128.84.91.55 55772 10.52.16.29 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/charades/build/charades_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/charades/install/charades_pkg/lib/python3.10/site-packages:/home/ubuntu/charades/build/charades_pkg:/home/ubuntu/charades/install/charades_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.222048] (-) TimerEvent: {}
+[3.322691] (-) TimerEvent: {}
+[3.423391] (-) TimerEvent: {}
+[3.524021] (-) TimerEvent: {}
+[3.624643] (-) TimerEvent: {}
+[3.725247] (-) TimerEvent: {}
+[3.808212] (charades_pkg) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.809579] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/charades/build/charades_pkg/setup.py", line 1, in <module>\n'}
+[3.810127] (charades_pkg) StderrLine: {'line': b'    from setuptools import find_packages, setup\n'}
+[3.810501] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>\n'}
+[3.810992] (charades_pkg) StderrLine: {'line': b'    import setuptools.version\n'}
+[3.811512] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>\n'}
+[3.811797] (charades_pkg) StderrLine: {'line': b'    import pkg_resources\n'}
+[3.812058] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3243, in <module>\n'}
+[3.815603] (charades_pkg) StderrLine: {'line': b'    def _initialize_master_working_set():\n'}
+[3.816073] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside\n'}
+[3.817026] (charades_pkg) StderrLine: {'line': b'    f(*args, **kwargs)\n'}
+[3.817754] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3255, in _initialize_master_working_set\n'}
+[3.818920] (charades_pkg) StderrLine: {'line': b'    working_set = WorkingSet._build_master()\n'}
+[3.819789] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 559, in _build_master\n'}
+[3.820367] (charades_pkg) StderrLine: {'line': b'    ws = cls()\n'}
+[3.820836] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 552, in __init__\n'}
+[3.821136] (charades_pkg) StderrLine: {'line': b'    self.add_entry(entry)\n'}
+[3.821414] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 608, in add_entry\n'}
+[3.821907] (charades_pkg) StderrLine: {'line': b'    for dist in find_distributions(entry, True):\n'}
+[3.822213] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2063, in find_on_path\n'}
+[3.822489] (charades_pkg) StderrLine: {'line': b'    for dist in factory(fullpath):\n'}
+[3.822887] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2128, in distributions_from_metadata\n'}
+[3.823384] (charades_pkg) StderrLine: {'line': b'    yield Distribution.from_location(\n'}
+[3.823697] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2591, in from_location\n'}
+[3.824144] (charades_pkg) StderrLine: {'line': b'    )._reload_version()\n'}
+[3.824750] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2989, in _reload_version\n'}
+[3.825787] (-) TimerEvent: {}
+[3.827081] (charades_pkg) StderrLine: {'line': b'    md_version = self._get_version()\n'}
+[3.827783] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2770, in _get_version\n'}
+[3.828461] (charades_pkg) StderrLine: {'line': b'    version = _version_from_file(lines)\n'}
+[3.829018] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2554, in _version_from_file\n'}
+[3.830360] (charades_pkg) StderrLine: {'line': b"    line = next(iter(version_lines), '')\n"}
+[3.831050] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2765, in _get_metadata\n'}
+[3.831779] (charades_pkg) StderrLine: {'line': b'    for line in self.get_metadata_lines(name):\n'}
+[3.832465] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1417, in get_metadata_lines\n'}
+[3.832828] (charades_pkg) StderrLine: {'line': b'    return yield_lines(self.get_metadata(name))\n'}
+[3.833197] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1407, in get_metadata\n'}
+[3.833699] (charades_pkg) StderrLine: {'line': b'    value = self._get(path)\n'}
+[3.834678] (charades_pkg) StderrLine: {'line': b'  File "/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1612, in _get\n'}
+[3.835472] (charades_pkg) StderrLine: {'line': b'    return stream.read()\n'}
+[3.836660] (charades_pkg) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[3.925666] (-) TimerEvent: {}
+[3.931733] (charades_pkg) CommandEnded: {'returncode': -2}
+[3.933904] (charades_pkg) JobEnded: {'identifier': 'charades_pkg', 'rc': 'SIGINT'}
+[3.944371] (-) EventReactorShutdown: {}

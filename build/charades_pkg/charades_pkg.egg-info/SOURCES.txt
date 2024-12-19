@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+charades_pkg/__init__.py
+charades_pkg/actions.py
+charades_pkg/charades_node.py
+charades_pkg.egg-info/PKG-INFO
+charades_pkg.egg-info/SOURCES.txt
+charades_pkg.egg-info/dependency_links.txt
+charades_pkg.egg-info/entry_points.txt
+charades_pkg.egg-info/requires.txt
+charades_pkg.egg-info/top_level.txt
+charades_pkg.egg-info/zip-safe
+resource/charades_pkg

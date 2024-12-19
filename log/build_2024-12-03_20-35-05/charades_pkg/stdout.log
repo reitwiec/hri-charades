@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating charades_pkg.egg-info
+writing charades_pkg.egg-info/PKG-INFO
+writing dependency_links to charades_pkg.egg-info/dependency_links.txt
+writing entry points to charades_pkg.egg-info/entry_points.txt
+writing requirements to charades_pkg.egg-info/requires.txt
+writing top-level names to charades_pkg.egg-info/top_level.txt
+writing manifest file 'charades_pkg.egg-info/SOURCES.txt'
+reading manifest file 'charades_pkg.egg-info/SOURCES.txt'
+writing manifest file 'charades_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/charades/install/charades_pkg/lib/python3.10/site-packages/charades-pkg.egg-link (link to .)
+Installing charades_node script to /home/ubuntu/charades/install/charades_pkg/lib/charades_pkg
+
+Installed /home/ubuntu/charades/build/charades_pkg
+running symlink_data
+creating /home/ubuntu/charades/install/charades_pkg/share/ament_index
+creating /home/ubuntu/charades/install/charades_pkg/share/ament_index/resource_index
+creating /home/ubuntu/charades/install/charades_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/charades/build/charades_pkg/resource/charades_pkg -> /home/ubuntu/charades/install/charades_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/charades/build/charades_pkg/package.xml -> /home/ubuntu/charades/install/charades_pkg/share/charades_pkg

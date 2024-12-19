@@ -1,0 +1,17 @@
+[3.198s] Invoking command in '/home/ubuntu/charades/build/charades_pkg': PYTHONPATH=/home/ubuntu/charades/build/charades_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/charades/install/charades_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/charades/build/charades_pkg/build --no-deps symlink_data
+[4.544s] running develop
+[5.417s] running egg_info
+[5.417s] writing charades_pkg.egg-info/PKG-INFO
+[5.419s] writing dependency_links to charades_pkg.egg-info/dependency_links.txt
+[5.420s] writing entry points to charades_pkg.egg-info/entry_points.txt
+[5.421s] writing requirements to charades_pkg.egg-info/requires.txt
+[5.421s] writing top-level names to charades_pkg.egg-info/top_level.txt
+[5.429s] reading manifest file 'charades_pkg.egg-info/SOURCES.txt'
+[5.432s] writing manifest file 'charades_pkg.egg-info/SOURCES.txt'
+[5.439s] running build_ext
+[5.440s] Creating /home/ubuntu/charades/install/charades_pkg/lib/python3.10/site-packages/charades-pkg.egg-link (link to .)
+[5.443s] Installing charades_node script to /home/ubuntu/charades/install/charades_pkg/lib/charades_pkg
+[5.445s] 
+[5.445s] Installed /home/ubuntu/charades/build/charades_pkg
+[5.447s] running symlink_data
+[5.608s] Invoked command in '/home/ubuntu/charades/build/charades_pkg' returned '0': PYTHONPATH=/home/ubuntu/charades/build/charades_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/charades/install/charades_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/charades/build/charades_pkg/build --no-deps symlink_data

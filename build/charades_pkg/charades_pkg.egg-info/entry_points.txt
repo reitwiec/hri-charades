@@ -1,0 +1,3 @@
+[console_scripts]
+charades_node = charades_pkg.charades_node:main
+

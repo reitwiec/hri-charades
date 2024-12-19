@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.008789] (charades_pkg) JobQueued: {'identifier': 'charades_pkg', 'dependencies': OrderedDict()}
+[0.009519] (charades_pkg) JobStarted: {'identifier': 'charades_pkg'}
+[0.094599] (-) TimerEvent: {}
+[0.195440] (-) TimerEvent: {}
+[0.296558] (-) TimerEvent: {}
+[0.397384] (-) TimerEvent: {}
+[0.498185] (-) TimerEvent: {}
+[0.598870] (-) TimerEvent: {}
+[0.699587] (-) TimerEvent: {}
+[0.800462] (-) TimerEvent: {}
+[0.901505] (-) TimerEvent: {}
+[1.002729] (-) TimerEvent: {}
+[1.103485] (-) TimerEvent: {}
+[1.204200] (-) TimerEvent: {}
+[1.304893] (-) TimerEvent: {}
+[1.405646] (-) TimerEvent: {}
+[1.506483] (-) TimerEvent: {}
+[1.607285] (-) TimerEvent: {}
+[1.708412] (-) TimerEvent: {}
+[1.809345] (-) TimerEvent: {}
+[1.910504] (-) TimerEvent: {}
+[2.011483] (-) TimerEvent: {}
+[2.112251] (-) TimerEvent: {}
+[2.213069] (-) TimerEvent: {}
+[2.313790] (-) TimerEvent: {}
+[2.414498] (-) TimerEvent: {}
+[2.515170] (-) TimerEvent: {}
+[2.616093] (-) TimerEvent: {}
+[2.717399] (-) TimerEvent: {}
+[2.818522] (-) TimerEvent: {}
+[2.919282] (-) TimerEvent: {}
+[3.020041] (-) TimerEvent: {}
+[3.120821] (-) TimerEvent: {}
+[3.221683] (-) TimerEvent: {}
+[3.322359] (-) TimerEvent: {}
+[3.423502] (-) TimerEvent: {}
+[3.524157] (-) TimerEvent: {}
+[3.624868] (-) TimerEvent: {}
+[3.725520] (-) TimerEvent: {}
+[3.826236] (-) TimerEvent: {}
+[3.927122] (-) TimerEvent: {}
+[4.027860] (-) TimerEvent: {}
+[4.128515] (-) TimerEvent: {}
+[4.229330] (-) TimerEvent: {}
+[4.331210] (-) TimerEvent: {}
+[4.364932] (charades_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/charades/build/charades_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ubuntu/charades/build/charades_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKSPACE_SETUP': '/opt/ros/humble/setup.bash', 'USER': 'ubuntu', 'SSH_CLIENT': '128.84.91.26 40178 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': '/etc/turtlebot4/cyclonedds_rpi.xml', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/charades/install', 'ROBOT_SETUP': '/etc/turtlebot4/setup.bash', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'ROS_SUPER_CLIENT': 'True', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4/fastdds_rpi.xml', 'TURTLEBOT4_DIAGNOSTICS': '1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/charades/install/charades_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'ROS_DISCOVERY_SERVER': '10.52.16.29:11811;', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'ROBOT_NAMESPACE': '', 'PWD': '/home/ubuntu/charades/build/charades_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '128.84.91.26 40178 10.52.16.29 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/charades/build/charades_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/charades/install/charades_pkg/lib/python3.10/site-packages:/home/ubuntu/charades/build/charades_pkg:/home/ubuntu/charades/install/charades_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.431435] (-) TimerEvent: {}
+[4.532570] (-) TimerEvent: {}
+[4.633304] (-) TimerEvent: {}
+[4.734055] (-) TimerEvent: {}
+[4.835162] (-) TimerEvent: {}
+[4.936071] (-) TimerEvent: {}
+[5.036827] (-) TimerEvent: {}
+[5.137574] (-) TimerEvent: {}
+[5.238235] (-) TimerEvent: {}
+[5.338894] (-) TimerEvent: {}
+[5.439709] (-) TimerEvent: {}
+[5.540469] (-) TimerEvent: {}
+[5.641323] (-) TimerEvent: {}
+[5.742118] (-) TimerEvent: {}
+[5.842814] (-) TimerEvent: {}
+[5.943706] (-) TimerEvent: {}
+[6.047133] (-) TimerEvent: {}
+[6.148312] (-) TimerEvent: {}
+[6.174604] (charades_pkg) StdoutLine: {'line': b'running develop\n'}
+[6.248462] (-) TimerEvent: {}
+[6.349726] (-) TimerEvent: {}
+[6.450835] (-) TimerEvent: {}
+[6.551695] (-) TimerEvent: {}
+[6.652411] (-) TimerEvent: {}
+[6.753117] (-) TimerEvent: {}
+[6.853872] (-) TimerEvent: {}
+[6.954572] (-) TimerEvent: {}
+[7.055757] (-) TimerEvent: {}
+[7.156746] (-) TimerEvent: {}
+[7.257523] (-) TimerEvent: {}
+[7.358641] (-) TimerEvent: {}
+[7.428833] (charades_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[7.429731] (charades_pkg) StdoutLine: {'line': b'writing charades_pkg.egg-info/PKG-INFO\n'}
+[7.430678] (charades_pkg) StdoutLine: {'line': b'writing dependency_links to charades_pkg.egg-info/dependency_links.txt\n'}
+[7.431678] (charades_pkg) StdoutLine: {'line': b'writing entry points to charades_pkg.egg-info/entry_points.txt\n'}
+[7.432756] (charades_pkg) StdoutLine: {'line': b'writing requirements to charades_pkg.egg-info/requires.txt\n'}
+[7.433536] (charades_pkg) StdoutLine: {'line': b'writing top-level names to charades_pkg.egg-info/top_level.txt\n'}
+[7.440943] (charades_pkg) StdoutLine: {'line': b"reading manifest file 'charades_pkg.egg-info/SOURCES.txt'\n"}
+[7.444414] (charades_pkg) StdoutLine: {'line': b"writing manifest file 'charades_pkg.egg-info/SOURCES.txt'\n"}
+[7.451994] (charades_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[7.452855] (charades_pkg) StdoutLine: {'line': b'Creating /home/ubuntu/charades/install/charades_pkg/lib/python3.10/site-packages/charades-pkg.egg-link (link to .)\n'}
+[7.457469] (charades_pkg) StdoutLine: {'line': b'Installing charades_node script to /home/ubuntu/charades/install/charades_pkg/lib/charades_pkg\n'}
+[7.458913] (-) TimerEvent: {}
+[7.460866] (charades_pkg) StdoutLine: {'line': b'\n'}
+[7.462328] (charades_pkg) StdoutLine: {'line': b'Installed /home/ubuntu/charades/build/charades_pkg\n'}
+[7.463475] (charades_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[7.559444] (-) TimerEvent: {}
+[7.662581] (-) TimerEvent: {}
+[7.675895] (charades_pkg) CommandEnded: {'returncode': 0}
+[7.745282] (charades_pkg) JobEnded: {'identifier': 'charades_pkg', 'rc': 0}
+[7.749374] (-) EventReactorShutdown: {}
